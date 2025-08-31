@@ -1,0 +1,364 @@
+/* Tablets */
+@media screen and (max-width: 992px){
+    nav ul li{
+        padding: 0  10px;
+    }
+    nav ul li a{
+        font-size: 12px;    
+    }
+    .logo h2{
+        font-size: 14px;
+    }
+
+}
+/* Large Phone-------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .top-left p{
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .top-right a{
+        font-size: 12px;
+    }
+  /* ------------------------- */
+    nav ul li{
+        padding: 0  5px;
+    }
+    nav ul li a{
+        font-size: 10px;    
+    }
+    .logo h2{
+        font-size: 12px;
+    }
+/* --------------- */
+.home-text h1 {
+    font-size: 40px;
+}
+.bbb {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+.home-text {
+    margin-top: 110px;
+}
+.home-box {
+    padding: 20px 3px;
+    margin: 5px;
+    max-height: 130px;
+}
+
+.box-right h2 {
+    font-size: 10px;
+    margin-left: 5px;
+    line-height: 16px;
+}
+.box-right a {
+    margin-left: 5px;
+    font-size: 10px;
+}
+.box-left img {
+    width: 80%;
+}
+/* ---------- */
+
+.populer {
+    width: 100%;
+    height: auto;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    min-height: 100vh;
+}
+.popular-title .left h2 {
+    font-size: 34px;
+    text-align: start;
+}
+.popular-title .left p {
+    font-size: 15px;
+}
+.puplar-warpper {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 1rem;
+}
+.p-box {
+    width: 100%;
+    margin: 0;
+}
+
+/* ------------- */
+.events {
+    padding-top: 50px;
+}
+.events-warpper .events-text {
+    width: 20%;
+    padding: 10px;
+}
+.events-title .left h2 {
+    font-size: 32px;
+}
+.events-text h1 {
+    font-size: 43px;
+}
+.events-text h2 {
+    font-size: 17px;
+}
+.events-warpper .events-des {
+    width: 50%;
+    padding: 10px 13px;
+}
+.events-des h2 {
+    font-size: 16px;
+}
+.time h4 {
+    font-size: 10px;
+    padding-right: 20px;
+}
+.events-des p {
+    font-size: 10px;
+}
+.events-warpper .events-img {
+    width: 38%;
+}
+.events-warpper .events-img {
+    padding: 0;
+}
+.events-warpper .events-img img {
+    border-radius: 5px;
+}
+
+/* -------- */
+.newsletter-box form button {
+    width: 100px;
+    padding: 16px 0;
+    font-size: 10px;
+}
+.newsletter-box form input {
+    padding: 16px 20px;
+    font-size: 10px;
+}
+/* ------- */
+.service {
+    margin-top: 130px;
+    height: auto;
+}
+.service {
+    margin-top: 130px;
+    padding: 50px 0px;
+}
+.heading h2 {
+    font-size: 36px;
+}
+.heading p {
+    font-size: 15px;
+}
+.service-warpper .s-box {
+    height: 40vh;
+}
+.service-warpper .s-box img {
+    width: 30px;
+}
+.service-warpper .s-box h2 {
+    font-size: 12px;
+}
+.service-warpper .s-box p {
+    font-size: 10px;
+    line-height: 14px;
+}
+.service-warpper .s-box p {
+    font-size: 10px;
+    line-height: 14px;
+}
+.s-box-btn button {
+    padding: 8px 15px;
+    font-size: 15px;
+}
+.s-box-btn {
+    margin-top: 26px;
+}
+/* ---------- */
+.newslwetter-title p {
+    font-size: 14px;
+}
+}
+
+/* --------------------------------------- */
+@media screen and (max-width: 600px){
+    .events-warpper {
+        align-items: normal;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .events-warpper .events-text {
+        width: 100%;
+        flex-basis: 30%;
+    }
+    .events-warpper .events-des {
+        width: 100% !important;
+        flex-basis: 65%;
+        margin-bottom: 20px;
+    }
+    .events-warpper .events-img {
+        width: 100%;
+    }
+    .events {
+        height: auto;
+        min-height: 100vh;
+    }
+    .events-title {
+        align-items: normal;
+    }
+    .left {
+        flex-basis: 70%;
+    }
+    .events-title .s-box-btn {
+        margin-top: 10px;
+    }
+    .news {
+        height: auto;
+    }
+    .newsletter {
+        height: auto;
+    }
+    .newslwetter-title p {
+        width: 100%;
+    }
+    .newsletter-box form input {
+        width: 60%;
+    }
+    .newsletter-box form button {
+        width: 80px;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer-text p {
+        padding-bottom: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .ppp{
+        display: none;
+    }
+    .menubtn{
+        display: initial;
+    }
+    nav {
+        display: initial;
+        position: fixed;
+        top: 0;
+        left: -10000px;
+        background: #222222;
+        width: 30%;
+        height: 100%;
+        transition: .2s;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding-top: 30px;
+    }
+
+    .heading h2 {
+        font-size: 32px;
+        text-align: start;
+    }
+    .heading p {
+        text-align: start;
+    }
+    .service-warpper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+    .service-warpper .s-box {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .popular-title .left p {
+        margin-top: -10px;
+    }
+    .puplar-warpper {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .popular-title .left h2 {
+        font-size: 32px;
+        text-align: start;
+        display: ruby-text;
+    }
+    .events-warpper .events-text {
+        flex-basis: 10%;
+        margin: 0;
+        padding: 0;
+    }
+    .events-text h1 {
+        font-size: 28px;
+    }
+    .events-text h2 {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .events-warpper .events-des {
+        flex-basis: 70%;
+        margin: 0;
+        padding: 0;
+    }
+    .events-des p {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .events-warpper .events-img {
+        margin-top: 20px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+    .top-left p {
+        margin-right: 2px;
+    }
+    .top-right a:first-child {
+        padding-right: 0px;
+    }
+    .top-right a:last-child {
+        padding-left: 5px;
+    }
+    .home-box-warpper {
+        gap: 5px;
+    }
+    .home-box {
+        background: #051e23af;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        min-height: 140px;
+    }
+    .box-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-left img {
+        width: 50%;
+    }
+    .box-right h2 {
+        font-size: 10px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        line-height: 14px;
+    }
+    .events-title .s-box-btn button {
+        padding: 10px;
+    }
+}
